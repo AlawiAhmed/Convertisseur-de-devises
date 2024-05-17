@@ -140,6 +140,7 @@ export default {
 }
 </script>
 <style>
+    
     .{
         padding: 30px 0;
     }
