@@ -1,13 +1,12 @@
 <template>
     >
-    <v-app-bar app color=#FFB1B1 dark  flat class="px-12">
-        <v-btn color=#121481 dark flat>
+    <v-app-bar app color=#E7ECF6 flat >
+        
+        <v-btn color=#121481 flat>
             <v-icon color=#6C6BBD left class="mr-0">fas fa-eur</v-icon> 
             <v-icon color=#ED0006 left class="mr-2">fas fa-usd</v-icon>      
             click on
         </v-btn>
-       
-
         <v-spacer></v-spacer>
         <!-- <v-menu open-on-hover>
             <template v-slot:activator="{ props }">
@@ -74,7 +73,7 @@
             <template v-slot:activator="{ props }">
                 <v-btn v-bind="props">
                     <v-icon color=#121481 left class="mr-5">fas fa-earth</v-icon>
-                    Menu
+                    <span>English</span>
                 </v-btn>
             </template>
 
@@ -144,4 +143,5 @@ export default {
     .{
         padding: 30px 0;
     }
+   
 </style>
