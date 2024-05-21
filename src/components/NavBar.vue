@@ -143,5 +143,6 @@ export default {
     .{
         padding: 30px 0;
     }
+    
    
 </style>
